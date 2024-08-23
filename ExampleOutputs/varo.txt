@@ -1,0 +1,1357 @@
+Varo
+
+Customer Support
+
+Bank Account Statement ‘ROLE ISEOE
+
+a — a e
+@ e ar=iere elaaraeialr= elaa
+x 4a » 4 =
+
+Mr. Damian Wisniewski
+2 Lawendowa,
+Opole, 45-087
+
+Summary for Account 0001 2345 6789 Amount
+Beginning Balance on February 1, 2020 $677.36
+Deposits and other credits $6,307.64
+Withdrawals and other debits -$6,352.34
+Fees -$5.00
+Ending Balance on February 29, 2020 $627.66
+Activity
+Date Description Amount Balance
+1/30/20 Debit Card (Purchase)
+NA KURWY # 819, HOUSTON, TXUS -$21.00 $656.36
+1/30/20 Debit Card (Purchase)
+NARKOTYKI 47941943, HOUSTON, TXUS -$8.56 $647.80
+1/30/20 Debit Card (Purchase)
+CHICK-FIL-A #03853, HOUSTON, TXUS -$13.51 $634.29
+1/30/20 Debit Card (Purchase)
+ALKOHOL, 512-4732600, TXUS -$37.26 $597.03
+1/30/20 Debit Card (Purchase)
+REST HOUSE CAFE, HOUSTON, TXUS -$15.15 $581.88
+1/30/20 Debit Card (Purchase)
+LYFT *RIDE THU 4PM, LYFT.COM, CAUS -$16.59 $565.29
+
+Page 1 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+1/31/20
+
+1/31/20
+
+1/31/20
+
+1/31/20
+
+1/31/20
+
+1/31/20
+
+2/1/20
+
+2/1/20
+
+2/1/20
+
+2/1/20
+
+2/1/20
+
+2/1/20
+
+2/2/20
+
+2/4/20
+
+2/5/20
+
+Description
+
+Debit Card (Purchase)
+LYFT *RIDE FRI 12PM, LYFT.COM, CAUS
+
+Debit Card (Purchase)
+REST HOUSE CAFE, HOUSTON, TXUS
+
+Debit Card (Purchase)
+LYFT *RIDE FRI 1PM, LYFT.COM, CAUS
+
+Debit Card (Purchase)
+GULF OIL 92051209, HOUSTON, TXUS
+
+Debit Card (Purchase)
+LYFT *RIDE FRI 4PM, LYFT.COM, CAUS
+
+Debit Card (Purchase)
+SUNOCO 0406020800, HOUSTON, TXUS
+
+Payment
+
+Branch Messenger - Other Debit
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Debit Card (Purchase)
+LYFT *RIDE SAT 3PM, LYFT.COM, CAUS
+
+Debit Card (Purchase)
+LYFT *PENDING, SAN FRANCISCO, CAUS
+
+Debit Card (Purchase)
+LYFT *RIDE SAT 9PM, LYFT.COM, CAUS
+
+Debit Card (Purchase)
+STARBUCKS STORE 09374, HOUSTON, TXUS
+
+Debit Card (Purchase)
+WM SUPERC Wal-Mart Sup, HOUSTON, TX
+
+Debit Card (Purchase)
+Wal-Mart Super Center, HOUSTON, TX
+
+Amount
+
+-$11.14
+
+-$23.00
+
+-$11.13
+
+-$8.47
+
+-$16.27
+
+-$10.69
+
+$25.00
+
+-$400.00
+
+-$100.00
+
+-$11.75
+
+-$8.99
+
+-$22.99
+
+-$8.50
+
+-$3.38
+
+-$1.02
+
+Balance
+
+$554.15
+
+$531.15
+
+$520.02
+
+$511.55
+
+$495.28
+
+$484.59
+
+$509.59
+
+$109.59
+
+$9.59
+
+-$2.16
+
+-$11.15
+
+-$34.14
+
+-$42.64
+
+-$46.02
+
+-$47.04
+
+Page 2 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/6/20
+
+2/7/20
+
+2/7/20
+
+2/7/20
+
+Description
+
+Direct Deposit
+TRANS PAPA LOGIS, DIR DEP
+
+Transfer
+
+From Varo Savings Account
+
+Transfer
+
+From Varo Savings Account
+
+Transfer
+
+From Varo Savings Account
+
+Transfer
+
+To Varo Savings Account
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Debit Card (Purchase)
+LYFT *RIDE THU 11AM, lyft.com, CAUS
+
+Debit Card (Purchase)
+LYFT *RIDE THU 1PM, lyft.com, CAUS
+
+Debit Card (Purchase)
+SHELL OIL 12600023001, HOUSTON, TXUS
+
+Debit Card (Purchase)
+LYFT *RIDE THU 4PM, lyft.com, CAUS
+
+Debit Card (Purchase)
+SUNOCO 0406020800, HOUSTON, TXUS
+
+Debit Card (Purchase)
+BRANCH MESSENGER INC, 866-5472413, MNUS
+
+Transfer
+
+From Varo Savings Account
+
+ATM Withdrawal (in network)
+
+RAINBOW QUIC-T0O, TX HOUSTON 8670 ANTOINE DR
+US
+
+Debit Card (Purchase)
+WALGREENS STORE 8808 A, HOUSTON, TXUS
+
+Amount
+
+$752.84
+
+$360.00
+
+$11.00
+
+$30.00
+
+-$705.00
+
+-$360.00
+
+-$11.27
+
+-$12.12
+
+-$6.26
+
+-$16.29
+
+-$7.76
+
+-$29.99
+
+$304.00
+
+-$200.00
+
+-$6.25
+
+Balance
+
+$705.80
+
+$1,065.80
+
+$1,076.80
+
+$1,106.80
+
+$401.80
+
+$41.80
+
+$30.53
+
+$18.41
+
+$12.15
+
+-$4.14
+
+-$11.90
+
+-$41.89
+
+$262.11
+
+$62.11
+
+$55.86
+
+Page 3 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/7/20
+
+2/7/20
+
+2/8/20
+
+2/8/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/13/20
+
+2/14/20
+
+2/14/20
+
+2/14/20
+
+Description
+
+Debit Card (Purchase)
+SMOKEN J'S BBQ LLC, HOUSTON, TXUS
+
+Debit Card (Purchase)
+LYFT *RIDE FRI 4PM, lyft.com, CAUS
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Debit Card (Purchase)
+DAIQUIRIS ON THE GO CA, HOUSTON, TXUS
+
+Direct Deposit
+TRANS PAPA LOGIS, DIR DEP
+
+Debit Card (Purchase)
+BRANCH MESSENGER INC, 866-5472413, MNUS
+
+Debit Card (Purchase)
+LYFT *RIDE THU 11AM, lyft.com, CAUS
+
+Debit Card (Purchase)
+LYFT *RIDE THU 2PM, lyft.com, CAUS
+
+Debit Card (Purchase)
+REST HOUSE CAFE, HOUSTON, TXUS
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Debit Card (Purchase)
+WALGREENS STORE 8808 A, HOUSTON, TXUS
+
+Debit Card (Purchase)
+LYFT *RIDE THU 4PM, lyft.com, CAUS
+
+Payment
+
+Branch Messenger - Other Debit
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Debit Card (Purchase)
+RAISING CANE'S #203, HOUSTON, TXUS
+
+Amount
+
+-$11.36
+
+-$16.41
+
+-$70.00
+
+-$3.95
+
+$1,048.16
+
+-$107.99
+
+-$11.27
+
+-$9.41
+
+-$29.44
+
+-$140.00
+
+-$7.18
+
+-$16.57
+
+$100.00
+
+-$150.00
+
+-$23.93
+
+Balance
+
+$44.50
+
+$28.09
+
+-$41.91
+
+-$45.86
+
+$1,002.30
+
+$894.31
+
+$883.04
+
+$873.63
+
+$844.19
+
+$704.19
+
+$697.01
+
+$680.44
+
+$780.44
+
+$630.44
+
+$606.51
+
+Page 4 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/14/20
+
+2/14/20
+
+2/14/20
+
+2/15/20
+
+2/15/20
+
+2/15/20
+
+2/15/20
+
+2/15/20
+
+2/17/20
+
+2/17/20
+
+2/19/20
+
+2/19/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+Description
+
+Debit Card (Purchase)
+LYFT *RIDE FRI 4PM, lyft.com, CAUS
+
+Debit Card (Purchase)
+SUNOCO 0406020800, HOUSTON, TXUS
+
+Debit Card (Purchase)
+PAPA JOHN'S #069 9718, HOUSTON, TXUS
+
+Payment
+
+Branch Messenger - Other Debit
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Debit Card (Purchase)
+TIDAL 844-878-4325, 844-8784325, FLUS
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Varo to Varo
+
+Transfer from Darius Simon
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR
+US
+
+Debit Card (Purchase)
+WM SUPERC Wal-Mart Sup, HOUSTON, TX
+
+Debit Card (Purchase)
+KROGER #3 12434 TOMBAL, HOUSTON, TX
+
+Direct Deposit
+TRANS PAPA LOGIS, DIR DEP
+
+Transfer
+
+From Varo Savings Account
+
+Transfer
+
+From Varo Savings Account
+
+Amount
+
+-$16.26
+
+-$8.12
+
+-$1.61
+
+$25.00
+
+-$180.00
+
+-$60.00
+
+-$9.99
+
+-$400.00
+
+$20.00
+
+-$20.00
+
+-$3.94
+
+-$1.19
+
+$825.92
+
+$60.00
+
+$716.00
+
+Balance
+
+$590.25
+
+$582.13
+
+$580.52
+
+$605.52
+
+$425.52
+
+$365.52
+
+$355.53
+
+-$44.47
+
+-$24.47
+
+-$44.47
+
+-$48.41
+
+-$49.60
+
+$776.32
+
+$836.32
+
+$1,552.32
+
+Page 5 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/20/20
+
+2/21/20
+
+2/21/20
+
+2/21/20
+
+2/21/20
+
+Description Amount
+Transfer
+To Varo Savings Account -$776.00
+
+Debit Card (Purchase)
+LYFT *RIDE THU 11AM, lyft.com, CAUS -$12.96
+
+Debit Card (Purchase)
+CASH APP*FALON, 8774174551, CAUS -$20.00
+
+Debit Card (Purchase)
+LYFT *RIDE THU 1PM, lyft.com, CAUS -$12.45
+
+Debit Card (Purchase)
+REST HOUSE CAFE, HOUSTON, TXUS -$17.58
+
+Debit Card (Purchase)
+UBER EATS, HELP.UBER.COM, CAUS -$38.28
+
+Debit Card (Purchase)
+VESTA *AT&T PREPAID, 866-608-3007, ORUS -$10.93
+
+Debit Card (Purchase)
+LYFT *RIDE THU 4PM, lyft.com, CAUS -$17.10
+
+Debit Card (Purchase)
+SUNOCO 0406020800, HOUSTON, TXUS -$9.56
+
+Debit Card (Purchase)
+BRANCH MESSENGER INC, 866-5472413, MNUS -$136.98
+
+Debit Card (Purchase)
+
+SONIC DRIVE IN #3260, KATY, TXUS -$9.40
+Payment
+Branch Messenger - Other Debit $100.00
+
+Debit Card (Purchase)
+EXXON TIME WISE # 819, HOUSTON, TXUS -$17.00
+
+Debit Card (Purchase)
+EXXONMOBIL 47941943, HOUSTON, TXUS -$3.48
+
+ATM Withdrawal (in network)
+
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR -$250.00
+US
+
+Balance
+
+$776.32
+
+$763.36
+
+$743.36
+
+$730.91
+
+$713.33
+
+$675.05
+
+$664.12
+
+$647.02
+
+$637.46
+
+$500.48
+
+$491.08
+
+$591.08
+
+$574.08
+
+$570.60
+
+$320.60
+
+Page 6 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/21/20
+
+2/21/20
+
+2/21/20
+
+2/22/20
+
+2/22/20
+
+2/22/20
+
+2/22/20
+
+2/22/20
+
+2/24/20
+
+2/24/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+Description
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Debit Card (Purchase)
+BURGER KING #17877, HOUSTON, TXUS
+
+ATM Withdrawal (in network)
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR US
+
+Debit Card (Purchase)
+DAIQUIRIS ON THE GO CA, HOUSTON, TXUS
+
+Direct Deposit
+IRS TREAS 310, TAX REF
+
+Debit Card (Purchase)
+PAPA JOHN'S #182 3719, KATY, TXUS
+
+Debit Card (Purchase)
+CHICK-FIL-A #03853, HOUSTON, TXUS
+
+ATM Withdrawal (in network)
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR US
+
+Debit Card (Purchase)
+SHELL/SHELL, HOUSTON, TXUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+VESTA *AT&T PREPAID, 866-6083007, ORUS
+
+Amount
+
+-$11.86
+
+-$11.64
+
+-$14.32
+
+-$130.00
+
+-$140.00
+
+-$11.88
+
+-$40.00
+
+-$6.50
+
+$1,402.00
+
+-$1.61
+
+-$8.32
+
+-$40.00
+
+-$21.01
+
+-$10.01
+
+-$69.92
+
+Balance
+
+$308.74
+
+$297.10
+
+$282.78
+
+$152.78
+
+$12.78
+
+$0.90
+
+-$39.10
+
+-$45.60
+
+$1,356.40
+
+$1,354.79
+
+$1,346.47
+
+$1,306.47
+
+$1,285.46
+
+$1,275.45
+
+$1,205.53
+
+Page / of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/25/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+Description
+
+Debit Card (Purchase)
+
+DOORDASH*THE CHEESECAK, STRIPE.COM, CAUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+REST HOUSE CAFE, HOUSTON, TXUS
+
+Debit Card (Purchase)
+BEST BUY #214, HOUSTON, TX
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+FragranceNet.com Inc., 180-07273, NYUS
+
+Debit Card (Purchase)
+POPEYES 10637 / HFF7, HOUSTON, TXUS
+
+Debit Card (Purchase)
+SUNOCO 0406020800, HOUSTON, TXUS
+
+Debit Card (Purchase)
+CVS/PHARM 03701--1410, Houston, TX
+
+Debit Card (Purchase)
+SHELL OIL 12600023001, HOUSTON, TXUS
+
+Debit Card (Purchase)
+
+DAIQUIRIS ON THE GO CA, HOUSTON, TXUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+
+TST* PELI PELI- GALLER, HOUSTON, TXUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+ATM Withdrawal (out of network)
+
+3100 FOUNTAIN VIEW DR, HOUSTON, TXUS
+
+Amount
+
+-$28.30
+
+-$6.51
+
+-$16.50
+
+-$54.11
+
+-$13.48
+
+-$92.48
+
+-$7.57
+
+-$9.60
+
+-$5.83
+
+-$8.87
+
+-$11.37
+
+-$16.23
+
+-$120.42
+
+-$6.86
+
+-$43.50
+
+Balance
+
+$1,177.23
+
+$1,170.72
+
+$1,154.22
+
+$1,100.11
+
+$1,086.63
+
+$994.15
+
+$986.58
+
+$976.98
+
+$971.15
+
+$962.28
+
+$950.91
+
+$934.68
+
+$814.26
+
+$807.40
+
+$763.90
+
+Page 8 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/26/20
+
+2/27/20
+
+2/27/20
+
+2/27/20
+
+Description
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+ATM Withdrawal (out of network)
+3100 FOUNTAIN VIEW DR, HOUSTON, TXUS
+
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+Debit Card (Purchase)
+CASH APP*NIQUE, 8774174551, CAUS
+
+Debit Card (Purchase)
+CASH APP*ESSENCE, 8774174551, CAUS
+
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+Debit Card (Purchase)
+PROSPECT PARK, HOUSTON, TXUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+SUBWAY 00289025, HOUSTON, TXUS
+
+Debit Card (Purchase)
+KROGER #3 12434 TOMBAL, HOUSTON, TX
+
+Direct Deposit
+TRANS PAPA LOGIS, DIR DEP
+
+Payment
+
+Branch Messenger - Other Debit
+
+Debit Card (Purchase)
+
+BRANCH MESSENGER INC, 866-5472413, MNUS
+
+Amount
+
+-$20.16
+
+-$10.83
+
+-$43.50
+
+-$18.40
+
+-$42.05
+
+-$50.00
+
+-$40.00
+
+-$47.63
+
+-$38.97
+
+-$19.50
+
+-$6.77
+
+-$10.57
+
+$452.72
+
+$75.00
+
+-$106.99
+
+Balance
+
+$743.74
+
+$732.91
+
+$689.41
+
+$671.01
+
+$628.96
+
+$578.96
+
+$538.96
+
+$491.33
+
+$452.36
+
+$432.86
+
+$426.09
+
+$415.52
+
+$868.24
+
+$943.24
+
+$836.25
+
+Page 9 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Date
+
+2/27/20
+
+2/27/20
+
+2/27/20
+
+2/27/20
+
+2/27/20
+
+2/28/20
+
+2/28/20
+
+2/28/20
+
+2/28/20
+
+2/29/20
+
+Description
+
+Debit Card (Purchase)
+HOUSTON DYNAMICS & WIN, HOUSTON, TXUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+UBER TRIP, HELP.UBER.COM, CAUS
+
+Debit Card (Purchase)
+SONIC DRIVE IN #8260, KATY, TXUS
+
+Debit Card (Purchase)
+UBER *TRIP, SAN FRANCISCO, CAUS
+
+ATM Withdrawal (in network)
+WALGREENS - 040, TX HOUSTON 8808 ANTOINE DR US
+
+Debit Card (Purchase)
+WALGREENS STORE 8808 A, HOUSTON, TXUS
+
+ATM Withdrawal Fee (out of network)
+ATM Withdrawal Fee (out of network)
+
+ATM Withdrawal Fee (out of network)
+ATM Withdrawal Fee (out of network)
+
+Varo to Varo
+
+Transfer to Denzel Simon
+
+Ending balance on February 29, 2020
+
+Amount
+
+-$18.38
+
+-$6.71
+
+-$11.55
+
+-$7.35
+
+-$13.85
+
+-$120.00
+
+-$5.75
+
+-$2.50
+
+-$2.50
+
+-$20.00
+
+Balance
+
+$817.87
+
+$811.16
+
+$799.61
+
+$792.26
+
+$778.41
+
+$658.41
+
+$652.66
+
+$650.16
+
+$647.66
+
+$627.66
+
+$627.66
+
+Page 10 of 11
+
+Activity Cont. (February 1, 2020 — February 29, 2020)
+
+Information About Your Right to Dispute Errors
+
+In case of errors or questions about your electronic transactions, call 1-800-VARO-526 or 1-800-827-6526, write to PO Box 71337,
+Salt Lake City, UT 84171 or send an email at help@varomoney.com if you think your statement or receipt is wrong or if you need
+more information about a transaction listed in the statement or receipt. We must allow you to report an error until sixty (60) days after
+the earlier of the date you electronically accessed your Varo Bank Account, if the error could be viewed in your electronic history, or
+the date Varo sent the FIRST written history on which the error appeared. You may request a written history of your transactions at
+any time by calling 1-800-VARO-526 or 1-800-827-6526 sending us an email at help@varomoney.com, or by writing to: PO Box
+71337, Salt Lake City, UT 84171. You will need to provide us:
+
+a. Your name, Varo Bank Account number and/or 16-digit Card number
+b. Why you believe there is an error, and the dollar amount involved
+c. Approximately when the error took place
+
+If you provide this information orally, we may require that you send your complaint or question in writing within ten (10) business days.
+We will determine whether an error occurred within ten (10) business days after we hear from you and will correct any error promptly.
+If we need more time, however, we may take up to forty-five (45) days to investigate your complaint or question. If we decide to do
+this, we will credit your Varo Bank Account within ten (10) business days for the amount you think is in error, so that you will have use
+of the money during the time it takes to complete the investigation. If we ask you to put your complaint or question in writing and you
+do not provide it within ten (10) business days, we may not credit your Varo Bank Account. For errors involving new Varo Bank
+Account, POS transactions or foreign-initiated transactions, we may take up to ninety (90) days to investigate your complaint or
+question. For a new Varo Bank Account, we may take up to twenty (20) business days to credit your Varo Bank Account for the
+amount you think is in error. We will tell you the results within three (3) business days after completing the investigation. If we decide
+that there was no error, we will send you a written explanation. Copies of the documentation used in the investigation may be obtained
+by contacting us at the phone number or address shown at the beginning of this section. If you need more information about this
+program’s error-resolution procedures, call 1-800-VARO-526.
+
+Page 11 of 11
+

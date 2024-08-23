@@ -1,0 +1,23 @@
+Bank Output Info
+
+NOTES: 
+varo could use image processing to get date quicker
+all the rbs files are the same
+td_2 doesn't read. image processing? check all output for accuracy 
+
+chase_1
+July 1, 2008 through July 31, 2008
+Primary Account: 00000988081483
+
+
+citi_1
+[8] www. citibank.com.au Statement Period 28 May 2023 - 28 Jun 2023
+[29] CITIBANK PLUS ACCOUNT 476268610 AUD 29830.00
+
+citi_2
+Citibank Account Number: 5319732813
+Statement Period: March 01,2018 to October 02,2018
+[or earlier with dd/mm/yyyy]
+Summary of Transactions on Savings Account Number 5319732813 in INR
+For the period 01-03-2018 to 02-10-2018
+
