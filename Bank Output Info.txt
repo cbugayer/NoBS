@@ -1,9 +1,19 @@
 Bank Output Info
 
-NOTES: 
-varo could use image processing to get date quicker
-all the rbs files are the same
-td_2 doesn't read. image processing? check all output for accuracy 
+General Questions:
+? zeros in output (2002.02.03 or 2002.2.3)
+
+ally_1
+? Opening Date or beginning balance date (did beginning balance date)
+
+becu_1
+? Member share saving account # or checking account # (did checking account #)
+
+bankofamerica_1
+[14] Card Number: wre wan HH 3997
+[18] Period Start Date: 11/14/2022
+[19] 1405 W MICHIGAN ST Period End Date: 12/13/2022
+should be ********3997
 
 chase_1
 July 1, 2008 through July 31, 2008
