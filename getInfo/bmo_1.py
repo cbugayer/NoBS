@@ -30,7 +30,6 @@ def get_end_date(filepath):
     raise Exception("End Date not found")
 
 def get_account_digits(filepath):
-    pass
     with open(filepath, "r") as f:
         all_lines = f.readlines()
         for index, line in enumerate(all_lines):

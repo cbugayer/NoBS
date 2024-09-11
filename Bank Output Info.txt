@@ -1,5 +1,11 @@
 Bank Output Info
 
+Ideas:
+ Why not have a standardized date finding function that uses regex to get dates
+
+Potential Issues:
+! Before getting splitting start_date to [month, day, year], check if len(start_date) == 3
+
 General Questions:
 ? zeros in output (2002.02.03 or 2002.2.3)
 
