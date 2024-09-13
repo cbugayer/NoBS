@@ -2,6 +2,11 @@ Bank Output Info
 
 Ideas:
  Why not have a standardized date finding function that uses regex to get dates
+ Check for date format using a format regex and then get the actual date using a date regex
+
+Research:
+ - Try Catch and the call stack
+ - __pycache__ folder purpose
 
 Potential Issues:
 ! Before getting splitting start_date to [month, day, year], check if len(start_date) == 3
