@@ -1,18 +1,28 @@
 Bank Output Info
 
 Ideas:
- Why not have a standardized date finding function that uses regex to get dates
- Check for date format using a format regex and then get the actual date using a date regex
+ capital_one_1.py will be the prototype for date ranges. eventually we can have general files that use ranges and separate start/end dates
+ why not truncate to the first 3 letters of the month and have remove full month names from MONTH_DICT? 
+ lowercase MONTH_DICT keys
+ loop through all date patterns to find the right one
 
-Research:
- - Try Catch and the call stack
- - __pycache__ folder purpose
+
+
+Consistencies:
+ - ally_1 and bank_of_america_2 dates start with "beginning balance" and account numbers start with "account number:"
+ - bank_of_america_1 and bmo_1 dates start with "period" and account numbers start with "card number"
+
+ 
 
 Potential Issues:
 ! Before getting splitting start_date to [month, day, year], check if len(start_date) == 3
+! Perhaps we should check EVERY line and check for any inconsistencies like 2 different date ranges. would performance take a hit?
+
+Notes:
+ - capital_one_1 and capital_one_2 are identical
 
 General Questions:
-? zeros in output (2002.02.03 or 2002.2.3)
+
 
 ally_1
 ? Opening Date or beginning balance date (did beginning balance date)
@@ -20,25 +30,13 @@ ally_1
 becu_1
 ? Member share saving account # or checking account # (did checking account #)
 
-bankofamerica_1
-[14] Card Number: wre wan HH 3997
-[18] Period Start Date: 11/14/2022
-[19] 1405 W MICHIGAN ST Period End Date: 12/13/2022
-should be ********3997
-
-chase_1
-July 1, 2008 through July 31, 2008
-Primary Account: 00000988081483
 
 
-citi_1
-[8] www. citibank.com.au Statement Period 28 May 2023 - 28 Jun 2023
-[29] CITIBANK PLUS ACCOUNT 476268610 AUD 29830.00
-
-citi_2
-Citibank Account Number: 5319732813
-Statement Period: March 01,2018 to October 02,2018
-[or earlier with dd/mm/yyyy]
-Summary of Transactions on Savings Account Number 5319732813 in INR
-For the period 01-03-2018 to 02-10-2018
-
+Done:
+    Why not have a standardized date finding function that uses regex to get dates
+    Check for date format using a format regex and then get the actual date using a date regex
+        findall gets the dates from the format and with a litle cleaning we can get the actual date
+    
+    
+    zeros in output (2002.02.03 or 2002.2.3)
+        doesn't matter to k, will include zeros

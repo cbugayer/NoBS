@@ -1,3 +1,5 @@
+import CONSTANTS as C
+
 def get_info(filepath):
         start_date = get_start_date(filepath)
         end_date = get_end_date(filepath)
@@ -12,7 +14,7 @@ def get_start_date(filepath):
                 start_date = all_lines[index + 1].strip()
                 [month, day, year] = start_date.split("/")
                 return (".").join([year, month, day])
-    raise Exception("Start Date not found")  
+    raise C.InfoNotFound("Start Date not found")  
 
 def get_end_date(filepath):
     with open(filepath, "r") as f:
@@ -22,7 +24,7 @@ def get_end_date(filepath):
                 end_date = all_lines[index + 1].strip()
                 [month, day, year] = end_date.split("/")
                 return (".").join([year, month, day])
-    raise Exception("End Date not found")
+    raise C.InfoNotFound("End Date not found")
 
 def get_account_digits(filepath):
     pass
@@ -33,6 +35,6 @@ def get_account_digits(filepath):
                 account_number = all_lines[index + 1].strip("\n ")[-4:]
                 if not account_number.isdigit() or not len(account_number) == 4: raise AssertionError(f"Account Number is not 4 digits:{account_number} (length {len(account_number)})")
                 return account_number
-    raise Exception("Account Number not found")
+    raise C.InfoNotFound("Account Number not found")
     
 # print(get_info("PyMuPDFExampleOutputs/bank_of_america_1.txt"))
