@@ -25,7 +25,7 @@ def get_info(filepath):
 def clean_date(date):
     date = date.split(" ")
     if len(date) != 3: raise Exception("Pattern matched an invalid date: " + date)
-    month, day, year = C.MONTH_DICT[date[0].strip(".")], date[1].strip(",."), date[2]
+    month, day, year = C.MONTH_DICT[date[0].strip(".").lower()[:3]], date[1].strip(",."), date[2]
     return (".").join([year, month, day])
 
 def check_for_range_dates(line, next_line):

@@ -13,7 +13,7 @@ def get_start_date(filepath):
             if line.startswith("PERIOD COVERED BY THIS STATEMENT"):
                 start_date = all_lines[index + 1].strip("\n ").split(" ")[:3]
                 [month, day, year] = start_date
-                return (".").join([year, C.MONTH_DICT[month.strip(". ")], day.strip(",")])
+                return (".").join([year, C.MONTH_DICT[month.strip(". ").lower()[:3]], day.strip(",")])
     raise C.InfoNotFound("Start Date not found")  
 
 def get_end_date(filepath):
@@ -23,7 +23,7 @@ def get_end_date(filepath):
             if line.startswith("PERIOD COVERED BY THIS STATEMENT"):
                 end_date = all_lines[index + 1].strip("\n ").split(" ")[-3:]
                 [month, day, year] = end_date
-                return (".").join([year, C.MONTH_DICT[month.strip(". ")], day.strip(",")])
+                return (".").join([year, C.MONTH_DICT[month.strip(". ").lower()[:3]], day.strip(",")])
     raise C.InfoNotFound("End Date not found")
 
 def get_account_digits(filepath):
