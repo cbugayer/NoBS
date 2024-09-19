@@ -1,43 +1,3 @@
-# import CONSTANTS as C
-
-# def get_info(filepath):
-#         start_date = get_start_date(filepath)
-#         end_date = get_end_date(filepath)
-#         account_digits = get_account_digits(filepath)
-#         return start_date + "-" + end_date + " " + account_digits
-
-# def get_start_date(filepath):
-#     with open(filepath, "r") as f:
-#         all_lines = f.readlines()
-#         for index, line in enumerate(all_lines):
-#             if line.startswith("Beginning balance on"):
-#                 start_date = line.strip("\n ").split(" ")[-3:]
-#                 [month, day, year] = start_date
-#                 return (".").join([year, C.MONTH_DICT[month], day.strip(",")])
-#     raise C.InfoNotFound("Start Date not found")  
-
-# def get_end_date(filepath):
-#     with open(filepath, "r") as f:
-#         all_lines = f.readlines()
-#         for index, line in enumerate(all_lines):
-#                 end_date = line.strip("\n ").split(" ")[-3:]
-#                 [month, day, year] = end_date
-#                 return (".").join([year, C.MONTH_DICT[month], day.strip(",")])
-#     raise C.InfoNotFound("End Date not found")
-
-# def get_account_digits(filepath):
-#     with open(filepath, "r") as f:
-#         all_lines = f.readlines()
-#         for index, line in enumerate(all_lines):
-#             if line.startswith("Account number:"):
-#                 account_number = line.strip(" \n")[-4:]
-#                 if not account_number.isdigit() or not len(account_number) == 4: 
-#                     raise AssertionError(f"Account Number is not 4 digits:{account_number} (length {len(account_number)})")
-#                 return account_number
-#     raise C.InfoNotFound("Account Number not found")
-    
-# # print(get_info("PyMuPDFExampleOutputs/bank_of_america_2.txt"))
-
 import re
 import CONSTANTS as C
 
@@ -75,7 +35,7 @@ def clean_date(date):
     return (".").join([year, month, day])
 
 def check_for_range_dates(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 2:
         start_date = clean_date(match_list[0])
@@ -84,7 +44,7 @@ def check_for_range_dates(line, next_line):
     return False, False, None, None
 
 def check_for_start_date(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 1 and line.startswith("Beginning balance on"):
         start_date = clean_date(match_list[0])
@@ -93,7 +53,7 @@ def check_for_start_date(line, next_line):
     
 
 def check_for_end_date(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 1 and line.startswith("Ending balance on"):
         end_date = clean_date(match_list[0])

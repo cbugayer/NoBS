@@ -29,7 +29,7 @@ def clean_date(date):
     return (".").join([year, month, day])
 
 def check_for_range_dates(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 2:
         start_date = clean_date(match_list[0])
@@ -38,7 +38,7 @@ def check_for_range_dates(line, next_line):
     return False, False, None, None
 
 def check_for_start_date(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 1:
         start_date = clean_date(match_list[0])
@@ -47,7 +47,7 @@ def check_for_start_date(line, next_line):
     
 
 def check_for_end_date(line, next_line):
-    pattern = C.pattern_date_month_word
+    pattern = C.pattern_month_word_day
     match_list = pattern.findall(line)
     if len(match_list) == 1:
         end_date = clean_date(match_list[0])
