@@ -47,7 +47,7 @@ def main():
             
             except C.InfoNotFound as e:
                 # Handle InfoNotFound errors that occur during method execution
-                if py_filename == "citi_2.py" and txt_filename == "citi_1.txt": 
+                if py_filename == "citi_2.py" and txt_filename == "commerce.txt": 
                     print(f"{py_filename} did not execute on {txt_filename}: {e}")
                     # print(traceback.format_exc())
                 pass

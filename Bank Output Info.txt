@@ -25,10 +25,12 @@ Potential Issues:
  - perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
  - makes C.clean_date much cleaner
 ! Perhaps we should check EVERY line and check for any inconsistencies like 2 different date ranges. would performance take a hit?
+ - we'd also want every check of DATE_CHECKS and DIGIT_CHECKS to run, and not terminate if a early check succeeds
 ! Really make sure all the dates are correct because the best .py files don't differentiate between start and end dates
 ! Maybe manually get all the results and check if the code gets the same results
 ! If there may be european dates, we should either account for them or just not allow them.
     - If we don't allow them, we should have the regex accept them and just check the date in check_month_day_year
+
 
 Notes:
  - capital_one_1 and capital_one_2 are identical

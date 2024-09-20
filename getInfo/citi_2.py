@@ -51,15 +51,10 @@ def check_for_end_date(line, next_line):
     #         return True, end_date
     return False, None
 
+
 def check_for_account_digits(line, next_line):
-    for check in C.PRE_ACCOUNT_NUMBER_CHECKS:
-        contains_digits, containing_line = check(line, next_line)
-        if contains_digits:
-            account_digits = containing_line.split(" ")[-1]
-            account_digits = account_digits[-4:]
-            if len(account_digits) != 4 or not account_digits.isdigit(): 
-                raise Exception(f"Pattern {check.__name__.upper()} matched an invalid account number: {account_digits} \
-                                (length {len(account_digits)})")
-            return True, account_digits
+    for check in C.DIGIT_CHECKS:
+        account_digits = check(line, next_line)
+        if account_digits: return True, account_digits 
     return False, None
 

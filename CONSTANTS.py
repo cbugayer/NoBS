@@ -37,15 +37,6 @@ def check_month_day_year(month, day, year):
         return True
     return False
 
-# NOT_MONTH_DICT = {"Jan": "01", "Feb": "02", "Mar": "03",
-#               "Apr": "04", "May": "05", "Jun": "06", 
-#               "Jul" : "07", "Aug": "08", "Sep": "09",
-#               "Oct": "10", "Nov": "11", "Dec": "12",
-#               "January": "01", "February": "02", "March": "03",
-#               "April": "04", "May": "05", "June": "06", 
-#               "July" : "07", "August": "08", "September": "09",
-#               "October": "10", "November": "11", "December": "12"}
-
 MONTH_DICT = {"jan": "01", "feb": "02", "mar": "03",
               "apr": "04", "may": "05", "jun": "06",
               "may": "05", "jun": "06", "jul" : "07",
@@ -60,34 +51,40 @@ day = "(?:0?[1-9]|[12][0-9]|3[01])"
 year = "(?:19[0-9]{2}|20[0-9]{2}|[0-9]{2})" # 1900-2099
 month_word = "[A-Z]{1}[a-z]{2,8}\.?"
 
-# date_month_word = "[A-Z]{1}[a-z]{2,8}\.? \d{1,2},? \d{2,4}"
 date_month_word_day = f"{month_word} {day},? {year}"
 pattern_month_word_day = re.compile(date_month_word_day)
 
 date_forward_slash = fr"{month}/{day}/{year}"
 pattern_forward_slash = re.compile(date_forward_slash)
 
+date_dash = f"{month}-{day}-{year}"
+pattern_dash = re.compile(date_dash)
+
 date_day_month_word = f"{day} {month_word} {year}"
 pattern_day_month_word = re.compile(date_day_month_word)
 
-date_dash = f"{month}-{day}-{year}"
-pattern_dash = re.compile(date_dash)
 
 DATE_PATTERNS = [pattern_month_word_day, pattern_forward_slash, pattern_dash, pattern_day_month_word]
 
 
-# sw_ = starts with
-# ne_ = not entirely
-# e_ = entirely
+def line_digits(line, next_line):
+    if len(line) >= 4 and line[-4:].isdigit() and \
+    (line.startswith("Primary Account:") and line != "Primary Account:") or \
+    ("Account Number:" in line and not line.endswith("Account Number:")) or \
+    ("citibank plus account" in line.lower() and line != "citibank plus account"):
+        return line[-4:]
+    return None
 
-def sw_ne_primary_account(line, next_line):
-    return line.startswith("Primary Account:") and line != "Primary Account:", line
-def sw_ne_account_number(line, next_line):
-    return "Account Number:" in line and not line.endswith("Account Number:"), line
-def e_checking(line, next_line):
-    return line == "Checking" and next_line[-4:].isdigit(), next_line
-def ne_bank_plus_account(line, next_line):
-    return "citibank plus account" in line.lower() and line != "citibank plus account" and line[-4:].isdigit(), line
+def next_line_digits(line, next_line):
+    if len(next_line) >= 4 and next_line[-4:].isdigit() and \
+    (line == "Checking") or \
+    (line.endswith("Primary Account Number:")):
+        return next_line[-4:]
+    return None
+    
+DIGIT_CHECKS = [line_digits, next_line_digits] 
 
 
-PRE_ACCOUNT_NUMBER_CHECKS = [sw_ne_primary_account, sw_ne_account_number, e_checking, ne_bank_plus_account]
+# def check_for_start_date(line, next_line):
+#     commerce = line.find("Beginning Balance on ")
+#     if commerce != -1 and 
