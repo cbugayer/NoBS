@@ -1,19 +1,17 @@
 Bank Output Info
 
 Ideas:
- capital_one_1.py will be the prototype for date ranges. eventually we can have GENERAL FILES that use ranges and separate start/end dates
- why not truncate to the first 3 letters of the month and have remove full month names from MONTH_DICT? 
- lowercase MONTH_DICT keys
- loop through all date patterns to find the right one
  where do we use next line? could we just pass in the line and return a tuple, with the line index as the second element? 0: line, 1: next_line
- one function to get all the dates. includes range, start, and end. 
  no need for got_start if start_date starts as None or "" - just check start_date
+ create function.py files and use them for the next bank file (commerce.py) so CONSTANTS don't have functions
+    this commerce.py should implement update_date in it's get info
+ Make C.clean_date much cleaner by
+    using capturing groups instead of non-capturing groups, to get the date directly from the resulting tuple
+    perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
+
 
 To Reform:
- - ally_1
- - bank_of_america_1
- - bank_of_america_2
- - bmo_1
+ - all
 
 Consistencies:
  - ally_1 and bank_of_america_2 dates start with "beginning balance" and account numbers start with "account number:"
@@ -22,10 +20,7 @@ Consistencies:
  
 
 Potential Issues:
-! Before splitting start_date to [month, day, year], check if len(start_date) == 3
- - if we use capturing groups instead of non-capturing groups, we can get the date directly from the resulting tuple
- - perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
- - makes C.clean_date much cleaner
+
 ! Perhaps we should check EVERY line and check for any inconsistencies like 2 different date ranges. would performance take a hit?
  - we'd also want every check of DATE_CHECKS and DIGIT_CHECKS to run, and not terminate if a early check succeeds
 ! Really make sure all the dates are correct because the best .py files don't differentiate between start and end dates
@@ -35,25 +30,14 @@ Potential Issues:
 
 
 Notes:
- - capital_one_1 and capital_one_2 are identical
+
 
 General Questions:
 ? Are there any european dates?
 
-
+Speficic Questions:
 ally_1
 ? Opening Date or beginning balance date (did beginning balance date)
 
 becu_1
 ? Member share saving account # or checking account # (did checking account #)
-
-
-
-Done:
-    Why not have a standardized date finding function that uses regex to get dates
-    Check for date format using a format regex and then get the actual date using a date regex
-        findall gets the dates from the format and with a litle cleaning we can get the actual date
-    
-    
-    zeros in output (2002.02.03 or 2002.2.3)
-        doesn't matter to k, will include zeros

@@ -26,7 +26,7 @@ def clean_date(date, index):
 
     if len(month) == 1: month = "0" + month
     if len(day) == 1: day = "0" + day
-    if len(year) == 2: year = "20" + year
+    if len(year) == 2: year = "20" + year # assume after 2000
     if not check_month_day_year(month, day, year): raise Exception(f"Pattern {DATE_PATTERNS[index]} matched an invalid date: {date}")
     return (".").join([year, month, day])
 
@@ -90,8 +90,3 @@ def next_line_digits(line, next_line):
     return None
     
 DIGIT_CHECKS = [line_digits, next_line_digits] 
-
-
-# def check_for_start_date(line, next_line):
-#     commerce = line.find("Beginning Balance on ")
-#     if commerce != -1 and 
