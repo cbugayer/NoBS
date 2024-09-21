@@ -5,6 +5,7 @@ MAX_YEAR = 2100
 MIN_YEAR = 1900
 
 def clean_date(date, index):
+    if not date: return ""
     # DATE_PATTERNS = [pattern_month_word_day, pattern_forward_slash, pattern_date_dash, pattern_day_date_month_word]
     if index == 0:
         date = date.split(" ")
@@ -45,6 +46,8 @@ MONTH_DICT = {"jan": "01", "feb": "02", "mar": "03",
 
 class InfoNotFound(Exception):
     pass
+class InfoInconsistent(Exception):
+    pass
 
 month = "(?:0?[1-9]|1[0-2])"
 day = "(?:0?[1-9]|[12][0-9]|3[01])"
@@ -65,6 +68,10 @@ pattern_day_month_word = re.compile(date_day_month_word)
 
 
 DATE_PATTERNS = [pattern_month_word_day, pattern_forward_slash, pattern_dash, pattern_day_month_word]
+
+start_prefaces = ["Beginning Balance on "]
+end_prefaces = ["Ending Balance on "]
+
 
 
 def line_digits(line, next_line):

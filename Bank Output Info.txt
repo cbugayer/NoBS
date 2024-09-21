@@ -6,6 +6,8 @@ Ideas:
  lowercase MONTH_DICT keys
  loop through all date patterns to find the right one
  where do we use next line? could we just pass in the line and return a tuple, with the line index as the second element? 0: line, 1: next_line
+ one function to get all the dates. includes range, start, and end. 
+ no need for got_start if start_date starts as None or "" - just check start_date
 
 To Reform:
  - ally_1
