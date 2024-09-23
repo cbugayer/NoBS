@@ -30,9 +30,10 @@ def main():
                 spec = importlib.util.spec_from_file_location(py_filename[:-3], py_full_path)
                 py_file = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(py_file)
-                if py_filename == "citi_2.py" and txt_filename == "citi_1.txt": 
-                    print(f"Running {py_filename} on {txt_filename}")
-                
+                if py_filename == "commerce.py" and txt_filename.startswith("citi_1"):
+                    # print("HI")
+                    pass
+
                 result = py_file.get_info(txt_full_path)
                 py_to_txt[py_filename].append(txt_filename)
                 # If it works, print a success message
@@ -47,14 +48,15 @@ def main():
             
             except C.InfoNotFound as e:
                 # Handle InfoNotFound errors that occur during method execution
-                if py_filename == "citi_2.py" and txt_filename == "commerce.txt": 
-                    print(f"{py_filename} did not execute on {txt_filename}: {e}")
+                # if py_filename == "commerce.py" and txt_filename.startswith("citi_"):
+                #     print(f"{py_filename} did not execute on {txt_filename}: {e}")
                     # print(traceback.format_exc())
                 pass
             except Exception as e:
                 # Handle any errors that occur during method execution
-                print(f"{py_filename} did not execute on {txt_filename}: {e}\n")
-                print(traceback.format_exc())
+                if py_filename == "commerce.py" and txt_filename.startswith("citi_"): 
+                    print(f"{py_filename} did not execute on {txt_filename}: {e}\n")
+                    print(traceback.format_exc())
                 pass
 
 
