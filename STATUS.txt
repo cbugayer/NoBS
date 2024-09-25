@@ -26,7 +26,7 @@ Potential Issues:
 ! Really make sure all the dates are correct because the best .py files don't differentiate between start and end dates
 ! Maybe manually get all the results and check if the code gets the same results
 ! If there may be european dates, we should either account for them or just not allow them.
-    - If we don't allow them, we should have the regex accept them and just check the date in check_month_day_year
+ - If we don't allow them, we should have the regex accept them and just check the date in check_month_day_year
 
 
 Notes:

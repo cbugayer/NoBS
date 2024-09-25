@@ -55,11 +55,3 @@ def clean_date(date, index):
     return (".").join([year, month, day])
 
 
-def preface_2_date(preface, line, match_list):
-    before_position = line.find(preface)
-    if before_position == -1: return ""
-    date_position = before_position + len(preface)
-    for date, date_start  in match_list:
-        if date_start == date_position:
-            return date
-    return ""
