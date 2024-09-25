@@ -1,29 +1,19 @@
-Bank Output Info
+STATUS
 
 Ideas:
- where do we use next line? could we just pass in the line and return a tuple, with the line index as the second element? 0: line, 1: next_line
- no need for got_start if start_date starts as None or "" - just check start_date
- create function.py files and use them for the next bank file (commerce.py) so CONSTANTS don't have functions
-    this commerce.py should implement update_date in it's get info
  Make C.clean_date much cleaner by
     using capturing groups instead of non-capturing groups, to get the date directly from the resulting tuple
     perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
+ Be error resistant - if a file fails output in logs file 
+    different error messages for different types of errors
+
 
 
 To Reform:
- - all
-
-Consistencies:
- - ally_1 and bank_of_america_2 dates start with "beginning balance" and account numbers start with "account number:"
- - bank_of_america_1 and bmo_1 dates start with "period" and account numbers start with "card number"
-
- 
+ - get_digits next_line function
+ - main()
 
 Potential Issues:
-
-! Perhaps we should check EVERY line and check for any inconsistencies like 2 different date ranges. would performance take a hit?
- - we'd also want every check of DATE_CHECKS and DIGIT_CHECKS to run, and not terminate if a early check succeeds
-! Really make sure all the dates are correct because the best .py files don't differentiate between start and end dates
 ! Maybe manually get all the results and check if the code gets the same results
 ! If there may be european dates, we should either account for them or just not allow them.
  - If we don't allow them, we should have the regex accept them and just check the date in check_month_day_year
@@ -31,13 +21,24 @@ Potential Issues:
 
 Notes:
 
-
 General Questions:
-? Are there any european dates?
+
 
 Speficic Questions:
-ally_1
-? Opening Date or beginning balance date (did beginning balance date)
+ becu_1
+ ? Member share saving account # or checking account # (did checking account #) 
+  - Should not come up. Perhaps delete Becu files
 
-becu_1
-? Member share saving account # or checking account # (did checking account #)
+
+ReadMe Info:
+ - what the code does
+ - how to run the code
+    - the input
+    - the output    
+ - potential issues
+ - assumptions
+    - no european dates
+    - max and min years
+    - 2 digit years are 2000s
+
+
