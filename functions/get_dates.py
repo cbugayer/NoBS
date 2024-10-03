@@ -70,6 +70,7 @@ def get_dates(start_date, end_date, line, next_line):
 
         except Exception as e:
             raise Exception(f"In line: {line}, \n{e} \nusing DATE_PATTERN index = {index}")
+        
     return start_date, end_date 
 
 

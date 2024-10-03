@@ -4,14 +4,13 @@ Ideas:
  Make C.clean_date much cleaner by
     using capturing groups instead of non-capturing groups, to get the date directly from the resulting tuple
     perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
- Be error resistant - if a file fails output in logs file 
-    different error messages for different types of errors
-
+ Logs file: 
+    - If error, log the error message traceback
+    
 
 
 To Reform:
- - get_digits next_line function
- - main()
+ - move ipynb to txt stuff to main()
 
 Potential Issues:
 ! Maybe manually get all the results and check if the code gets the same results

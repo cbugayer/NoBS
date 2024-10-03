@@ -1,7 +1,6 @@
 import importlib.util
 import os
 import traceback
-from collections import defaultdict
 import functions.exception_classes as C
 
 import getInfo as gi
@@ -9,68 +8,44 @@ import getInfo as gi
 def main():
             
     # Define the folders
-    py_folder_path = 'getInfo' 
     txt_folder_path = 'PyMuPDFExampleOutputs'  
 
     txt_filenames = [f for f in os.listdir(txt_folder_path) if f.endswith('.txt')]
-    py_filenames = [f for f in os.listdir(py_folder_path) if f.endswith('.py') and f != "__init__.py"]
     txt_filenames.sort()
-    py_filenames.sort()
-    py_to_txt = defaultdict(list)
-
+    succeeded, failed, success_list = [], [], []
     for txt_filename in txt_filenames:
         txt_full_path = os.path.join(txt_folder_path, txt_filename)
-        was_successful = False 
-        for py_filename in py_filenames:
-            if os.stat(os.path.join(py_folder_path, py_filename)).st_size == 0: continue
-            try:
-                py_full_path = os.path.join(py_folder_path, py_filename)
-                
-                # Dynamically import the .py file as a module
-                spec = importlib.util.spec_from_file_location(py_filename[:-3], py_full_path)
-                py_file = importlib.util.module_from_spec(spec)
-                spec.loader.exec_module(py_file)
-                if py_filename == "commerce.py" and txt_filename.startswith("td"):
-                    # print("HI")
-                    pass
+        
+        try:            
+            # Dynamically import the .py file as a module
+            spec = importlib.util.spec_from_file_location("getInfo.py", "getInfo.py")
+            py_file = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(py_file)
 
-                result = py_file.get_info(txt_full_path)
-                py_to_txt[py_filename].append(txt_filename)
-                # If it works, print a success message
-                spaces = " " * (30 - len(txt_filename))
-                if py_filename == "commerce.py": 
-                    print(f"{txt_filename}: {spaces} {result}")
-                was_successful = True
-            
-            except C.InfoNotFound as e:
-                # Handle InfoNotFound errors that occur during method execution
-                if py_filename == "commerce.py" and txt_filename.startswith("td"):
-                    print(f"{py_filename} did not execute on {txt_filename}: {e}")
-                    print(traceback.format_exc())
-                pass
-            except Exception as e:
-                # Handle any errors that occur during method execution
-                if py_filename == "commerce.py" and txt_filename.startswith("td"): 
-                    print(f"{py_filename} did not execute on {txt_filename}: {e}\n")
-                    print(traceback.format_exc())
-                    pass
-                pass
-
-
-        # if no .py files work
-        if not was_successful:
-            # UNCOMMENT
-            # print(f"No .py files executed successfully for {txt_filename}\n")
-            continue
-        # else:
-        #     print("\n")
+            result = py_file.get_info(txt_full_path)
+            succeeded.append(txt_filename)
+            # If it works, print a success message
+            spaces = " " * (30 - len(txt_filename))
+            success_list.append(f"{txt_filename}: {spaces} {result}")
+        
+        except C.InfoNotFound as e:
+            # Handle InfoNotFound errors that occur during method execution
+            print(f"INFO NOT FOUND {txt_filename} failed: {e}")
+            # print(traceback.format_exc())
+            failed.append(txt_filename)
+            pass
+        except Exception as e:
+            # Handle any errors that occur during method execution 
+            print(f"EXCEPTION {txt_filename} failed: {e}\n")
+            # print(traceback.format_exc())
+            failed.append(txt_filename)
+            pass
         
     # Print the results
-    sorted_py_to_txt_keys = sorted(py_to_txt.keys())
-    for py_filename in sorted_py_to_txt_keys:
-        working_txt = py_to_txt[py_filename]
-        if py_filename == "commerce.py":
-            print(f"{len(working_txt)} worked")
+    [print(s) for s in success_list]
+    print(f"{len(succeeded)} worked\n")
+    print(f"{len(failed)} failed")
+    
 
 
 

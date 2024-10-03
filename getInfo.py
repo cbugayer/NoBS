@@ -1,5 +1,5 @@
 from functions.get_dates import get_dates
-from functions.get_digits import get_digits_list
+from functions.get_digits import get_digits
 from functions.exception_classes import InfoNotFound
 
 def get_info(filepath):
@@ -11,8 +11,7 @@ def get_info(filepath):
             next_line = "" if index == all_lines_len - 1 else all_lines[index + 1]
             line = line.strip(" \n")
             next_line = next_line.strip(" \n")
-            for digits_check in get_digits_list:
-                account_digits = digits_check(account_digits, line, next_line)
+            account_digits = get_digits(account_digits, line, next_line)
             start_date, end_date = get_dates(start_date, end_date, line, next_line)
 
         error_message = ""

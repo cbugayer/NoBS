@@ -12,5 +12,3 @@ MONTH_DICT = {"jan": "01", "feb": "02", "mar": "03",
               "nov": "11", "dec": "12"}
 
 DATE_PATTERNS = patterns
-
-DIGIT_CHECKS = [line_digits, next_line_digits] 
