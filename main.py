@@ -8,7 +8,7 @@ import getInfo as gi
 def main():
             
     # Define the folders
-    txt_folder_path = 'PyMuPDFExampleOutputs'  
+    txt_folder_path = 'txt_files'  
 
     txt_filenames = [f for f in os.listdir(txt_folder_path) if f.endswith('.txt')]
     txt_filenames.sort()
