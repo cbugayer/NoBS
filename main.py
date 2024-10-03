@@ -8,7 +8,7 @@ import getInfo as gi
 def main():
             
     # Define the folders
-    txt_folder_path = 'txt_files'  
+    txt_folder_path = 'no_newlines'  
 
     txt_filenames = [f for f in os.listdir(txt_folder_path) if f.endswith('.txt')]
     txt_filenames.sort()
@@ -21,7 +21,8 @@ def main():
             spec = importlib.util.spec_from_file_location("getInfo.py", "getInfo.py")
             py_file = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(py_file)
-
+            if txt_filename == "regions.txt":
+                print("regions.txt")
             result = py_file.get_info(txt_full_path)
             succeeded.append(txt_filename)
             # If it works, print a success message

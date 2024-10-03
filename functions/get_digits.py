@@ -1,4 +1,5 @@
 import re
+import functions.CONSTANTS as C
 from functions.validate_potential import validate_potential
 from functions.exception_classes import InfoInconsistent
 from functions.prefaces import digit_prefaces
@@ -8,7 +9,7 @@ def get_digits(digits, line, next_line):
 
         if preface in line and \
             not line.endswith(preface) and \
-            not re.findall(r"[^-:\dXx* ]", line[(line.find(preface) + len(preface)):]) and \
+            not re.findall(C.PREFACE2DIGITS, line[(line.find(preface) + len(preface)):]) and \
             len(line) >= 4 and line[-4:].isdigit(): 
             potential_digits = line[-4:]
             try:

@@ -1,8 +1,8 @@
-import functions.CONSTANTS as C
 from functions.date import *
 from functions.prefaces import *
 from functions.validate_potential import validate_potential
 from functions.exception_classes import InfoInconsistent
+from functions.date_patterns import Date_Patterns
 
 
 def preface_2_date(preface, line, match_list):
@@ -23,7 +23,7 @@ def preface_2_date_next(preface, line, match_list_next):
     return ""
 
 def get_dates(start_date, end_date, line, next_line):
-    for index, DATE_PATTERN in enumerate(C.DATE_PATTERNS):
+    for index, DATE_PATTERN in enumerate(Date_Patterns):
         match_list = [(m[0], m.start(0)) for m in DATE_PATTERN.finditer(line)]
         match_list_next = [m[0] for m in DATE_PATTERN.finditer(next_line)]
 

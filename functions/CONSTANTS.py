@@ -1,5 +1,4 @@
-from functions.get_digits import *
-from functions.date_patterns import patterns
+
 
 # Changing these would require changing the date regex patterns
 MAX_YEAR = 2100
@@ -11,4 +10,6 @@ MONTH_DICT = {"jan": "01", "feb": "02", "mar": "03",
               "aug": "08", "sep": "09", "oct": "10",
               "nov": "11", "dec": "12"}
 
-DATE_PATTERNS = patterns
+
+# These are acceptable characters between the account number preface and the digits
+PREFACE2DIGITS = r"[^-:\dXx* ]"

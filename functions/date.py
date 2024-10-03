@@ -1,5 +1,6 @@
 import functions.CONSTANTS as C
 from functions.exception_classes import InfoInconsistent
+from functions.date_patterns import Date_Patterns
 
 
 def check_month_day_year(month, day, year):
@@ -18,7 +19,7 @@ def check_date_len(date):
 def clean_date(date, index):
     if not date: return ""
     '''
-    DATE_PATTERNS = [
+    Date_Patterns = [
         0 pattern_month_word_day,
         1 pattern_day_date_month_word,
         2 pattern_forward_slash,
@@ -43,7 +44,7 @@ def clean_date(date, index):
             elif index == 4:
                 date = date.split(".")
             else:
-                raise Exception(f"Unknown index {index} of DATE_PATTERNS")
+                raise Exception(f"Unknown index {index} of Date_Patterns")
             check_date_len(date)
             month, day, year = date[0], date[1], date[2]
     except Exception as e:
@@ -51,7 +52,7 @@ def clean_date(date, index):
     if len(month) == 1: month = "0" + month
     if len(day) == 1: day = "0" + day
     if len(year) == 2: year = "20" + year # assume after 2000
-    if not check_month_day_year(month, day, year): raise Exception(f"Pattern {C.DATE_PATTERNS[index]} matched an invalid date: {date}")
+    if not check_month_day_year(month, day, year): raise Exception(f"Pattern {Date_Patterns[index]} matched an invalid date: {date}")
     return (".").join([year, month, day])
 
 

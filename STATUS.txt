@@ -19,14 +19,19 @@ Potential Issues:
 
 
 Notes:
+   !!! PYMUPDF has a table extraction function
+   gonna try to delete every blank line in the txt files
 
 General Questions:
 
 
 Speficic Questions:
  becu_1
- ? Member share saving account # or checking account # (did checking account #) 
-  - Should not come up. Perhaps delete Becu files
+  Multiple account numbers (savings and checking)
+ us_1 and us_2 
+  Seems like they overwrote account numbers, resulting in invisible account numbers pymupdf picks up
+ regions_1
+
 
 
 ReadMe Info:
