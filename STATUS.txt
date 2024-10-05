@@ -1,36 +1,17 @@
 STATUS
 
+TODO: 
+ - Manually check results
+ - copy files over with new names to new directory (and old names if failed)
+ - write readme
+
 Ideas:
- Make C.clean_date much cleaner by
-    using capturing groups instead of non-capturing groups, to get the date directly from the resulting tuple
-    perhaps with no need to check tuple length - removing .split(), len() == 3 check, and raising exception
- Logs file: 
-    - If error, log the error message traceback
-    
-
-
 To Reform:
- - move ipynb to txt stuff to main()
-
+Notes:
+General Questions:
+Speficic Questions:
 Potential Issues:
 ! Maybe manually get all the results and check if the code gets the same results
-! If there may be european dates, we should either account for them or just not allow them.
- - If we don't allow them, we should have the regex accept them and just check the date in check_month_day_year
-
-
-Notes:
-
-General Questions:
-
-
-Speficic Questions:
- becu_1
-  Multiple account numbers (savings and checking)
- us_1 and us_2 
-  Seems like they overwrote account numbers, resulting in invisible account numbers pymupdf picks up
- regions_1
-
-
 
 ReadMe Info:
  - what the code does

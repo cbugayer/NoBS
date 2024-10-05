@@ -193,10 +193,7 @@ Disclosures on back of insert.
  _________________________
 Initials                         Date
 Amount Enclosed
-Statement for account number: 
- 
- 
-4427 xxxx xxxx 8871
+Statement for account number:   4427 xxxx xxxx 8871
 Opening/Closing Date:
 Payment Due Date:
 Minimum Payment Due:

@@ -5,7 +5,6 @@ regular_case_digit_prefaces = ["Account Number:",
                   "Account number:", 
                   "Primary Account:", 
                   "Card Number:", 
-                #   "Checking", 
                   "CITIBANK PLUS ACCOUNT", 
                   "ending in",
                   "Account #", 
@@ -15,6 +14,7 @@ regular_case_digit_prefaces = ["Account Number:",
 DigitPrefaces = regular_case_digit_prefaces + [digit_prefaces.upper() for digit_prefaces in regular_case_digit_prefaces]
 
 
-midfaces = [" to", " until", " through", " -", "-"]
-Midfaces = midfaces + [midface.upper() for midface in midfaces] + [midface.title() for midface in midfaces]
+midfaces = ["to", "until", "through", "-"]
+midfaces_spaces = [m + " " for m in midfaces] + [" " + m for m in midfaces] + ["-"]
+Midfaces = midfaces_spaces + [midface.upper() for midface in midfaces_spaces] + [midface.title() for midface in midfaces_spaces]
 

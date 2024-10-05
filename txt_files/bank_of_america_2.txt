@@ -36,30 +36,7 @@ $35,368.25
 -2,106.42
 -18,000.00
 -0.00
-Y
-Yo
-ou
-ur
-r 
- B
-Bo
-of
-fA
-A 
- C
-Co
-or
-re
-e 
- C
-Ch
-he
-ec
-ck
-ki
-in
-ng
-g
+YYoouurr  BBooffAA  CCoorree  CChheecckkiinngg
 for November 30, 2020 to December, 2020 
 TELLDRICK WILLIAMS
 Account summary
@@ -82,8 +59,7 @@ account would be governed by the terms of these documents, as we may amend them 
 part of the contract for your deposit account and govern all transactions relating to your account, including all deposits and
 withdrawals. Copies of both the deposit agreement and fee schedule which contain the current version of the terms and
 conditions of your account relationship may be obtained at our banking centers.
-Electronic transfers: In case of errors or questions about your electronic transfers
- - If you think your statement or receipt is
+Electronic transfers: In case of errors or questions about your electronic transfers - If you think your statement or receipt is
 wrong or you need more information about an electronic transfer (e.g., ATM transactions, direct deposits or withdrawals,
 point-of-sale transactions) on the statement or receipt, telephone or write us at the address and number listed on the front of
 this statement as soon as you can. We must hear from you no later than 60 days after we sent you the FIRST statement on
@@ -145,12 +121,7 @@ CA
 CHECKCARD 0121 049 LAGUNA BEACH JOHNNY LAGUNA BEACH CA 
 24013395021002050972280
 -14.21
-Total  
-ATM  
-and  
-debit  
-card  
-subtractions
+Total  ATM  and  debit  card  subtractions
 -$1,144.64
 Other subtractions
 Date
@@ -158,94 +129,63 @@ Description
 Amount
 11/30/20
 MERCURY
- 
 INSURANCE
- 
 Bill
- 
 Payment
 -350.33
 12/07/20
 ATT
- 
 U-VERSE
  Bill
- 
 Payment
 -39.95
 12/10/20
 PNC
- 
 MORTGAGE
- 
-Bill
- 
+ Bill
 Payment
 -1,191.00
 12/12/20
 CITY
- 
 OF
- 
 RIVERSIDE
- 
 Bill
- 
 Payment
 -191.99
 12/15/20
 CONSUMER
- 
 CELLULAR
- 
 Bill
- 
 Payment
 -25.19
 12/18/20
 Southern
- 
 California
- 
 Gas
- 
 Bill
- 
 Payment
 -138.43
 12/20/20
 Dish
- 
 Network
- 
-Bill
- 
+ Bill
 Payment
 -128.84
 12/25/20
 ATT
- 
 U-verse
- 
-Bill
- 
+ Bill
 Payment
 -39.95
 12/28/20
 AT&T
- 
 Bill
- 
 (SBC-CA)
- 
 Bill
- 
 Payment
 -0.74
 Total
- 
 other
- 
 subtractions
 -$2,106.42
 Checks
@@ -255,16 +195,12 @@ Amount
 12/29/20
 0400
 Total
- 
 checks
 -18,000.00
 -$18,000.00
 Total
- 
 #
- 
 of
- 
 checks
 1
 To help you BALANCE YOUR CHECKING ACCOUNT, visit bankofamerica.com/statementbalance or the Statements and Documents tab

@@ -1,7 +1,6 @@
 Page 1 of 4 
 July 1, 2008 through July 31, 2008
 Primary Account:  00000988081483 
- 
 JPMorgan Chase Bank N.A. 
 Ohio/West Virginia Markets 
 P O Box 260180 
@@ -17,18 +16,11 @@ Para Espanol:
 International Calls: 
 1-713-262-1679 
 Baton Rouge, LA 70826-0180 
- 
- 
- 
- 
- 
 00013422 DDA 001 LA 10205 – YYN T 1 00000000 07 0000 
 Company Name
 Company Address
 State, Zip
- 
  CHECKING SUMMARY 
- 
 INSTANCES 
 AMOUNT
 Beginning Balance
@@ -45,18 +37,12 @@ Other Withdrawals, Fees & Charges
 Ending Balance 
 16 
 $189,296.31
- 
- 
 This message confirms that you have overdraft protection on your checking account. 
- 
  DEPOSITS AND ADDITIONS  
- 
 DATE 
- 
 DESCRIPTION 
 AMOUNT
 07/02 
- 
 Deposit
 Deposit
 Deposit
@@ -77,34 +63,22 @@ $17,120.00
 6,908.63
 5,100.00
 07/09 
- 
 07/14 
- 
 07/15 
- 
 07/21 
- 
 07/21 
- 
 07/23 
- 
 07/28 
- 
- 
 07/30 
- 
 Deposit
 07/30 
- 
 Total Deposits and Additions 
 $125,883.63
 Downloaded from http://www.tidyforms.com 
 Page 3 of 4 
 July 1, 2008 through July 31, 2008
 Primary Account:  00000988081483 
- 
- CHECKS PAID 
- 
+  CHECKS PAID 
 CHECK NUMBER 
 DESCRIPTION 
 DATE 
@@ -190,4 +164,4 @@ Excessive Transaction Fees (Above 200)
 $0.00
 Total Service Fees
 $0.00
-Downloaded from http://www.tidyforms.com 
+Downloaded from http://www.tidyforms.com

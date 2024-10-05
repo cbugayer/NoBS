@@ -1,7 +1,6 @@
 Page 1 of 4 
 July 1, 2008 through July 31, 2008
 Primary Account:  00000988081483 
- 
 JPMorgan Chase Bank N.A. 
 Ohio/West Virginia Markets 
 P O Box 260180 
@@ -17,18 +16,11 @@ Para Espanol:
 International Calls: 
 1-713-262-1679 
 Baton Rouge, LA 70826-0180 
- 
- 
- 
- 
- 
 00013422 DDA 001 LA 10205 – YYN T 1 00000000 07 0000 
 Company Name
 Company Address
 State, Zip
- 
  CHECKING SUMMARY 
- 
 INSTANCES 
 AMOUNT
 Beginning Balance
@@ -45,18 +37,12 @@ Other Withdrawals, Fees & Charges
 Ending Balance 
 16 
 $189,296.31
- 
- 
 This message confirms that you have overdraft protection on your checking account. 
- 
  DEPOSITS AND ADDITIONS  
- 
 DATE 
- 
 DESCRIPTION 
 AMOUNT
 07/02 
- 
 Deposit
 Deposit
 Deposit
@@ -77,125 +63,63 @@ $17,120.00
 6,908.63
 5,100.00
 07/09 
- 
 07/14 
- 
 07/15 
- 
 07/21 
- 
 07/21 
- 
 07/23 
- 
 07/28 
- 
- 
 07/30 
- 
 Deposit
 07/30 
- 
 Total Deposits and Additions 
 $125,883.63
 Downloaded	  from	  http://www.tidyforms.com	  
 Page 2 of 4 
 July 1, 2008 through July 31, 2008
 Primary Account:  00000988081483 
- 
- 
- 
- 
- BALANCING YOUR CHECKBOOK 
- 
+  BALANCING YOUR CHECKBOOK 
 Note:  Ensure your checkbook register is up to date with all transactions to date whether they are included on your statement or not. 
- 
 1. Write in the Ending Balance shown on this statement:  
- 
              Step 1 Balance:   $______________ 
- 
 2. List and total all deposits & additions not shown on this statement: 
- 
     Date      Amount 
- 
      Date      Amount       
      Date       Amount 
 __________________ 
 ____________________ __________________ 
- 
 __________________ 
 ____________________ __________________ 
- 
 ___________________ 
 _____________________ __________________ 
- 
 Step 2 Total: 
 $______________ 
- 
 3. Add Step 2 Total to Step 1 Balance. 
- 
- 
- 
- 
- 
- 
- 
- 
 Step 3 Total: 
 $______________ 
- 
 4. List and total all checks, ATM withdrawals, debit card purchases and other withdrawals 
 not shown on this statement. 
- 
 Check Number or Date 
 Amount  
- 
 Check Number or Date 
 Amount 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
 _________________________________ 
 __________________________________ 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 Step 4 Total:     - $______________ 
- 
 5. Subtract Step 4 Total from Step 3 Total.  This should match your Checkbook Balance: 
 $______________ 
- 
 IN CASE OF ERRORS OR QUESTIONS ABOUT YOUR ELECTRONIC FUNDS TRANSFERS:   Call or write us at the phone number or address 
 on the front of this statement (non-personal accounts  contact Customer Service) if you think your statement or receipt is incorrect or if you 
 need more information about  a transfer listed on the statement or receipt..  We must hear from you no later than 60 days after we sent you 
@@ -209,38 +133,16 @@ A description of the error or transfer you are unsure of, why you believe it is 
 We will investigate your complaint and will correct any error promptly.  If we take more than 10 business days (or 20 business days for  
 new accounts) to do this, we will credit your account for the amount you think is in error so that you will have use of the money during the 
 time it takes us to complete our investigation. 
- 
 IN CASE OF ERRORS OR QUESTIONS ABOUT NON-ELECTRONIC TRANSACTIONS: Contact the bank immediately if your statement is 
 incorrect or if you need more information about any non-electronic transactions (checks or deposits) on this statement.  If any such error 
 appears, you must notify the bank in writing no later than 30 days after the statement was made available to you.  For more complete  
 details, see the Account Rules and Regulations or other applicable account agreement that governs your account. 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 JPMorgan Chase Bank, N.A. Member FDIC
- 
 Downloaded	  from	  http://www.tidyforms.com	  
 Page 3 of 4 
 July 1, 2008 through July 31, 2008
 Primary Account:  00000988081483 
- 
- CHECKS PAID 
- 
+  CHECKS PAID 
 CHECK NUMBER 
 DESCRIPTION 
 DATE 
@@ -332,4 +234,4 @@ July 1, 2008 through July 31, 2008
 Primary Account:
 This Page Intentionally Left Blank
   00000988081483 
-Downloaded	  from	  http://www.tidyforms.com	  
+Downloaded	  from	  http://www.tidyforms.com
