@@ -3,3 +3,9 @@ class InfoInconsistent(Exception):
 
 class InfoNotFound(Exception):
     pass
+
+class InvalidDateRange(Exception):
+    pass
+
+
+

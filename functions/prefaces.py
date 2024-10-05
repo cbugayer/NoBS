@@ -1,5 +1,5 @@
-start_prefaces = ["Beginning Balance on", "Beginning Balance, as of", "Period Start Date:"]
-end_prefaces = ["Ending Balance on", "Ending Balance, as of", "Period End Date:"]
+StartPrefaces = ["Beginning Balance on", "Beginning Balance, as of", "Period Start Date:"]
+EndPrefaces = ["Ending Balance on", "Ending Balance, as of", "Period End Date:"]
 
 regular_case_digit_prefaces = ["Account Number:", 
                   "Account number:", 
@@ -12,7 +12,9 @@ regular_case_digit_prefaces = ["Account Number:",
                   "Primary Account Number:",
                   "Account#"]  
 
-digit_prefaces = regular_case_digit_prefaces + [digit_prefaces.upper() for digit_prefaces in regular_case_digit_prefaces]
+DigitPrefaces = regular_case_digit_prefaces + [digit_prefaces.upper() for digit_prefaces in regular_case_digit_prefaces]
 
 
+midfaces = [" to", " until", " through", " -", "-"]
+Midfaces = midfaces + [midface.upper() for midface in midfaces] + [midface.title() for midface in midfaces]
 

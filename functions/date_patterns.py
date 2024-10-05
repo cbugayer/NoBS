@@ -21,4 +21,4 @@ date_dot = fr"{month}\.{day}\.{year}"
 pattern_dot = re.compile(date_dot)
 
 
-Date_Patterns = [pattern_month_word_day, pattern_day_month_word, pattern_forward_slash, pattern_dash, pattern_dot]
+DatePatterns = [pattern_month_word_day, pattern_day_month_word, pattern_forward_slash, pattern_dash, pattern_dot]

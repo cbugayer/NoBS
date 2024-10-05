@@ -19,8 +19,6 @@ Potential Issues:
 
 
 Notes:
-   !!! PYMUPDF has a table extraction function
-   gonna try to delete every blank line in the txt files
 
 General Questions:
 

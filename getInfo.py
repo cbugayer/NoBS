@@ -1,6 +1,7 @@
 from functions.get_dates import get_dates
 from functions.get_digits import get_digits
-from functions.exception_classes import InfoNotFound
+from functions.exception_classes import *
+from functions.validate_date_range import ValidDateRange
 
 def get_info(filepath):
     with open(filepath, "r") as f:
@@ -19,6 +20,8 @@ def get_info(filepath):
         if not end_date: error_message += "\nEnd Date not found"
         if not account_digits: error_message += "\nAccount Number not found"
         if error_message: raise InfoNotFound(error_message + "\n")
-        if start_date == end_date: raise Exception("Start Date and End Date are the same", start_date)
+        ValidDateRange(start_date, end_date)
+
+
     
     return start_date + "-" + end_date + " " + account_digits

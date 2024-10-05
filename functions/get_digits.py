@@ -2,10 +2,10 @@ import re
 import functions.CONSTANTS as C
 from functions.validate_potential import validate_potential
 from functions.exception_classes import InfoInconsistent
-from functions.prefaces import digit_prefaces
+from functions.prefaces import DigitPrefaces
 
 def get_digits(digits, line, next_line):
-    for preface in digit_prefaces:
+    for preface in DigitPrefaces:
 
         if preface in line and \
             not line.endswith(preface) and \
