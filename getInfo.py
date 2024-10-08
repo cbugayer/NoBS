@@ -3,6 +3,7 @@ from functions.get_digits import get_digits
 from functions.exception_classes import *
 from functions.validate_date_range import ValidDateRange
 
+
 def get_info(text):
     all_lines = text.split("\n")
     all_lines_len = len(all_lines)

@@ -8,6 +8,7 @@ import traceback
 import importlib.util
 from functions.exception_classes import *
 
+
 def main():
 
     if len(sys.argv) < 2:

@@ -4,6 +4,7 @@ from functions.validate_potential import validate_potential
 from functions.exception_classes import InfoInconsistent
 from functions.prefaces import DigitPrefaces
 
+
 def get_digits(digits, line, next_line):
     for preface in DigitPrefaces:
 

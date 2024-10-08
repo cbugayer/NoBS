@@ -1,5 +1,3 @@
-
-
 # Changing these would require changing the date regex patterns
 MAX_YEAR = 2100
 MIN_YEAR = 1900

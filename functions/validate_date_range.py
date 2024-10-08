@@ -1,5 +1,6 @@
 from functions.exception_classes import InvalidDateRange
 
+
 def ValidDateRange(start_date, end_date):
     if start_date == end_date: raise InvalidDateRange(f"Start Date {start_date} and End Date {end_date} are the same")
     start_year, start_month, start_day = [int(time) for time in start_date.split(".")]
