@@ -29,7 +29,7 @@ git clone https://github.com/cbugayer/NoBS.git
 Run the following command to install the required package `PyMuPDF` which is used for reading text from the pdf files:
 
 ```bash
-pip install PyMuPDF
+pip install PyMuPDF==1.24.8
 ```
 
 ## Running the script
