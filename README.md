@@ -51,3 +51,7 @@ It will also create a log file named `LOGS_myfiles.txt` in the same directory as
 - Maximun year is 2099 and minimum year is 1900
 - 2 digit years are in the 2000s
 
+## Discussion 
+
+Please feel free to ask for me to add compatibility with other bank statements in the discussion tab. All other discussion is also welcome.
+
