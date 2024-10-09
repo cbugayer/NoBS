@@ -7,6 +7,7 @@ import shutil
 import traceback
 import importlib.util
 from functions.exception_classes import *
+from functions.destination_suffix import add_suffix
 
 
 def main():
@@ -29,13 +30,15 @@ def main():
         processed_folder_path = parent_folder_path
     else:
         dirpath, _, pdf_files = next(os.walk(statements_folder_path))
-        parent_folder_path = os.path.dirname(os.path.dirname(dirpath))
+        parent_folder_path = os.path.dirname(dirpath)
         statements_folder_name = os.path.basename(dirpath.rstrip("/"))
 
         processed_folder_path = os.path.join(parent_folder_path, f"RENAMED_{statements_folder_name}")
         logs_file_path = os.path.join(parent_folder_path, f"LOGS_{statements_folder_name}.txt")
 
-        if not os.path.exists(processed_folder_path): os.makedirs(processed_folder_path)
+        processed_folder_path = processed_folder_path if not os.path.exists(processed_folder_path) else add_suffix("", processed_folder_path)
+        logs_file_path = logs_file_path if not os.path.exists(logs_file_path) else add_suffix("", logs_file_path)
+        os.makedirs(processed_folder_path)
 
     success_list, failure_list = [], []
     # Loop through the files in the statements folder
@@ -56,7 +59,7 @@ def main():
             # Result
             result = py_file.get_info(text)
             success_list.append(f"{filename}: {spaces} {result}\n")
-    
+
         except InfoNotFound as e:
             # # Handle InfoNotFound errors that occur during method execution
             # print(f"INFO NOT FOUND {filename} failed: {e}")
@@ -69,9 +72,12 @@ def main():
             # print(traceback.format_exc())
             failure_list.append(f"{filename}: {spaces} failed\n")
             pass
-
-        if statement_path != os.path.join(processed_folder_path, f"{result}.pdf"):
-            shutil.copy(statement_path, os.path.join(processed_folder_path, f"{result}.pdf"))
+        
+        destination_path = os.path.join(processed_folder_path, f"{result}.pdf")
+        if os.path.exists(destination_path) or statement_path == destination_path:
+            destination_path = add_suffix(statement_path, destination_path)
+        
+        shutil.copy(statement_path, destination_path)
 
     # Print the results   
     if is_file:    
