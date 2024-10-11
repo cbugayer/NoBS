@@ -71,6 +71,16 @@ Similar to `pip`, use `python` if necessary.
 The script will create a new folder named `RENAMED_myfiles` in the same directory as the pdf files and will copy the pdf files with the new names to the new folder. If any file fails to be renamed, it will be copied to the new folder with the old name.
 It will also create a log file named `LOGS_myfiles.txt` in the same directory as the pdf files. The log file will contain the old and new names of the pdf files. It will also show the files that could not be renamed.
 
+## Detailed Logs
+
+If you add the word `log` after the command like so:
+```bash
+python3 main.py path/to/pdf/myfiles log
+```
+the script will create a more detailed log file still named `LOGS_myfiles.txt`. It will show the files that could not be renamed and the reason why they could not be renamed, as well as the text extracted from the pdf files.
+
+**REMEMBER TO DELETE THIS LOG FILE AS IT CONTAINS ALL THE SENSITIVE INFORMATION FROM THE FAILED PDF FILES.**
+
 ## Assumptions
 
 - There should be no European dates in the pdf files
