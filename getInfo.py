@@ -16,10 +16,10 @@ def get_info(text):
         start_date, end_date = get_dates(start_date, end_date, line, next_line)
 
     error_message = ""
-    if not start_date: error_message += "\nStart Date not found"
-    if not end_date: error_message += "\nEnd Date not found"
-    if not account_digits: error_message += "\nAccount Number not found"
-    if error_message: raise InfoNotFound(error_message + "\n")
+    if not start_date: error_message += "Start Date not found\n"
+    if not end_date: error_message += "End Date not found\n"
+    if not account_digits: error_message += "Account Number not found\n"
+    if error_message: raise InfoNotFound(error_message.rstrip("\n"))
     ValidDateRange(start_date, end_date)
     
     return start_date + "-" + end_date + " " + account_digits
