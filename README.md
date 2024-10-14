@@ -84,7 +84,7 @@ the script will create a more detailed log file still named `LOGS_myfiles.txt`. 
 ## Assumptions
 
 - There should be no European dates in the pdf files
-- Maximun year is 2099 and minimum year is 1900
+- Maximum year is 2099 and minimum year is 1900
 - 2 digit years are in the 2000s
 
 ## Discussion 
